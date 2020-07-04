@@ -7,7 +7,6 @@
 
 var bGround = require('fcc-express-bground');
 var myApp = require('./myApp');
-var fs = require('fs');
 var express = require('express');
 var app = express();
 
@@ -30,7 +29,7 @@ app.use('/public', express.static(process.cwd() + '/public'));
 
 app.route('/_api/package.json')
   .get(function(req, res, next) {
-    //console.log('requested');
+    console.log('requested');
     fs.readFile(__dirname + '/package.json', function(err, data) {
       if(err) return next(err);
       res.type('txt').send(data.toString());
