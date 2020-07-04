@@ -46,7 +46,6 @@ console.log("Hello World");
 /** 11) Get ready for POST Requests - the `body-parser` */
 // place it before all the routes !
 
-
 /** 12) Get data form POST  */
 
 
