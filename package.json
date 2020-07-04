@@ -1,6 +1,6 @@
 {
 	"author": "Dave Mustaine",
-	"keywords": [ "descriptive", "freecodecamp", "words" ],
+	"keywords": [ "descriptive", "freecodecamp", "ords" ],
 	"description": "A web app",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
