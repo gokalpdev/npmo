@@ -57,7 +57,7 @@ app.use(function(err, req, res, next) {
   }  
 })
 
-app.listen(process.env.PORT || 3000, function () {
+bGround.setupBackgroundApp(app, myApp, __dirname).listen(process.env.PORT, function () {
   console.log('Node.js listening ...');
 });
 
