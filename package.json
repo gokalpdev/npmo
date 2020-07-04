@@ -1,6 +1,7 @@
 {
 	"author": "Dave Mustaine",
 	"keywords": [ "descriptive", "freecodecamp", "ords" ],
+	"license": "MIT",
 	"description": "A web app",
 	"name": "fcc-learn-npm-package-json",
 	"dependencies": {
