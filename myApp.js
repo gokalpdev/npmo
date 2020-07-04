@@ -8,7 +8,6 @@ var app = express();
 
 
 /** 1) Meet the node console. */
-console.log("Hello World");
 
 
 /** 2) A first working Express Server */
